@@ -15,8 +15,8 @@ with open(csvfile, "a") as output:
 	writer.writerow( [since + ' - ' + until])
 	
 
-#API_ACCESS_KEY='Msz4iBvMUp4FMRCm_Mr5'
-API_ACCESS_KEY='jv7CXR3xTmyJ5i2rAMXy'
+
+API_ACCESS_KEY=''
 BASE_URL = 'https://api.pagerduty.com'
 HEADERS = {
 		'Accept': 'application/vnd.pagerduty+json;version=2',
